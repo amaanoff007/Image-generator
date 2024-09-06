@@ -1,7 +1,7 @@
 import { CircularProgress } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
-
+//disp data im
 const Container = styled.div`
   flex: 1;
   min-height: 300px;
@@ -22,7 +22,6 @@ const Image = styled.img`
   border-radius: 24px;
   background: ${({ theme }) => theme.black + 50};
 `;
-
 const GeneratedImageCard = ({ src, loading }) => {
   return (
     <Container>
