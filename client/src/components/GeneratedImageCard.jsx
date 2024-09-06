@@ -2,6 +2,7 @@ import { CircularProgress } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 //disp data im
+//when src !null show image
 const Container = styled.div`
   flex: 1;
   min-height: 300px;
@@ -14,6 +15,7 @@ const Container = styled.div`
   color: ${({ theme }) => theme.arrow + 80};
   border-radius: 20px;
 `;
+
 
 const Image = styled.img`
   width: 100%;
