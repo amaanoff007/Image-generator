@@ -116,6 +116,7 @@ const GenerateImageForm = ({
           isLoading={generateImageLoading}
           isDisabled={post.prompt === ""}
           onClick={() => generateImageFun()}
+          //bk
         />
         <Button
           text="Post Image"
