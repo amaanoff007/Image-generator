@@ -4,7 +4,7 @@ import SearchBar from "../components/SearchBar";
 import ImageCard from "../components/ImageCard";
 import { CircularProgress } from "@mui/material";
 import { GetPosts } from "../api";
-
+//get req
 const Container = styled.div`
   height: 100%;
   overflow-y: scroll;
