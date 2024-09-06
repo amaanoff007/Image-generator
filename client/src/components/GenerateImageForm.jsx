@@ -5,7 +5,7 @@ import Button from "./button";
 import TextInput from "./TextInput";
 import { AutoAwesome, CreateRounded } from "@mui/icons-material";
 import { CreatePost, GenerateAIImage } from "../api";
-
+//form for  prompt
 const Form = styled.div`
   flex: 1;
   padding: 16px 20px;
